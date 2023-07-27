@@ -50,7 +50,7 @@ const Coins = () => {
                 </HStack>
               </RadioGroup>
                     <ReactPaginate  previousLabel={"<<"} nextLabel={">>"} breakLabel={"..."}
-                    pageCount={100} marginPagesDisplayed={2} pageRangeDisplayed={3} 
+                    pageCount={81} marginPagesDisplayed={2} pageRangeDisplayed={3} 
                     onPageChange={(data)=>setPage(data.selected+1) }
                     containerClassName={"pagination justify-content-center"}
                     pageClassName={"page-item"} pageLinkClassName={"page-link"}
